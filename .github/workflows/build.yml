@@ -1,4 +1,5 @@
-```yaml
+
+```
 name: Compilar APK
 on:
   push:
@@ -20,4 +21,3 @@ jobs:
         with:
           name: Escaner-ARJE
           path: app/build/outputs/apk/debug/*.apk
-```
